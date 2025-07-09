@@ -16,8 +16,8 @@
       font-family: 'Arial', sans-serif;
       line-height: 1.6;
       color: #333;
-      /* Cor principal do texto */
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      /* Gradiente alterado para azul -> azul escuro */
+      background: linear-gradient(135deg, #1e73be 0%, #0d5aa7 100%);
       min-height: 100vh;
     }
 
@@ -59,7 +59,8 @@
     }
 
     .nav-btn {
-      background: linear-gradient(45deg, #667eea, #764ba2);
+      /* Gradiente alterado para azul -> azul escuro */
+      background: linear-gradient(45deg, #1e73be, #0d5aa7);
       color: white;
       border: none;
       padding: 12px 24px;
@@ -106,14 +107,21 @@
       color: #2c3e50;
       font-size: 2em;
       margin-bottom: 20px;
-      border-bottom: 3px solid #667eea;
+      /* Cor da borda alterada para o novo azul */
+      border-bottom: 3px solid #1e73be;
       padding-bottom: 10px;
     }
 
     h3 {
-      color: #2c3e50;
+      color: white;
       font-size: 1.5em;
       margin: 25px 0 15px 0;
+    }
+
+    /* Manter cor original para títulos específicos */
+    #statistics h3:first-of-type,
+    #statistics h3:nth-of-type(2) {
+      color: #333 !important;
     }
 
     .mission-vision {
@@ -128,7 +136,8 @@
       padding: 25px;
       border-radius: 15px;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-      border-left: 5px solid #667eea;
+      /* Cor da borda alterada para o novo azul */
+      border-left: 5px solid #1e73be;
     }
 
     .card h4 {
@@ -156,7 +165,8 @@
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-      border-top: 4px solid #667eea;
+      /* Cor da borda alterada para o novo azul */
+      border-top: 4px solid #1e73be;
     }
 
     .project-grid {
@@ -179,7 +189,8 @@
     }
 
     .project-header {
-      background: linear-gradient(45deg, #667eea, #764ba2);
+      /* Gradiente alterado para azul -> azul escuro */
+      background: linear-gradient(45deg, #1e73be, #0d5aa7);
       color: white;
       padding: 20px;
       text-align: center;
@@ -200,7 +211,8 @@
     }
 
     .action-table th {
-      background: linear-gradient(45deg, #667eea, #764ba2);
+      /* Gradiente alterado para azul -> azul escuro */
+      background: linear-gradient(45deg, #1e73be, #0d5aa7);
       color: white;
       padding: 15px;
       text-align: left;
@@ -211,7 +223,6 @@
       padding: 12px 15px;
       border-bottom: 1px solid #eee;
       color: #333;
-      /* Cor do texto da tabela */
     }
 
     .action-table tr:hover {
@@ -219,7 +230,8 @@
     }
 
     .meta-badge {
-      background: linear-gradient(45deg, #667eea, #764ba2);
+      /* Gradiente alterado para azul -> azul escuro */
+      background: linear-gradient(45deg, #1e73be, #0d5aa7);
       color: white;
       padding: 8px 16px;
       border-radius: 20px;
